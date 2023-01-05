@@ -16,7 +16,7 @@ For compile code : # gcc concurrent.c -o concurrent
 
 /* Definations */
 #define DEFAULT_BUFLEN 512
-#define PORT XXXX(Change me!)
+#define PORT 2121
 
 void do_job(int fd) {
 int length,rcnt;
